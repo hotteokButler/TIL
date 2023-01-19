@@ -1,0 +1,10 @@
+{
+  //include 배열에는 js로 compile하고 싶은 모든 directory 넣어줌
+  "include": ["src"],
+  "compilerOptions": {
+    //compile된 js 파일 생성될 디렉터리 지정
+    "outDir": "build",
+    //target : 어떤 버전의 자바스크립트로 컴파일 하고 싶은지 지정
+    "target": "ES5"
+  }
+}
