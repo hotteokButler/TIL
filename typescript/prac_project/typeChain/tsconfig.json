@@ -10,6 +10,8 @@
     //설정한 환경에 따른 타입들이 지정되어져 있는 파일 불러옴, 자동완성 및 option들 확인 가능
     "lib": ["ES6", "DOM"],
     //엄격모드
-    "strict": true
+    "strict": true,
+    //javascript 허용 유무 (typescript가 javascript를 자동으로 타입 추론하게 허용)
+    "allowJs": true
   }
 }
